@@ -356,6 +356,13 @@
       "template": "back-office/curbside-partial-pickup-ready",
       "title": "Curbside Partial Pickup Ready",
       "userCreatable": false
+    },
+    {
+      "entityType": "shipmentPickupReady",
+      "id": "shipment-pickup-ready",
+      "template": "back-office/shipment-pickup-ready",
+      "title": "Shipment Pickup Ready",
+      "userCreatable": false
     }
   ],
   "mobileNotificationTemplates": [
