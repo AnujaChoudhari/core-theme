@@ -441,7 +441,7 @@
       "id": "shipment.partialpickupready",
       "properties": {},
       "template": "mobile-notification/ready-for-pickup",
-      "title": "Pickup Ready"
+      "title": "Partial Pickup Ready"
     }
   ],
   "pageTypes": [
