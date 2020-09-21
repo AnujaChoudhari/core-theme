@@ -440,7 +440,7 @@
     {
       "id": "shipment.partialpickupready",
       "properties": {},
-      "template": "mobile-notification/ready-for-pickup",
+      "template": "mobile-notification/partial-ready-for-pickup",
       "title": "Partial Pickup Ready"
     }
   ],
