@@ -429,7 +429,7 @@
       "id": "shipment.pickupreminder",
       "properties": {},
       "template": "mobile-notification/pickup-reminder",
-      "title": "Curbside Ready"
+      "title": "Pickup reminder"
     },
     {
       "id": "shipment.pickupready",
