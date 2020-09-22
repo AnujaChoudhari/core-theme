@@ -171,10 +171,16 @@
       "title": "Return Has Been Updated"
     },
     {
-      "id": "shipment.transferCreated",
+      "id": "shipment.transfercreatedbyfulfiller",
       "properties": {},
       "template": "email/transfer-shipment-created",
-      "title": "Transfer Shipment Created"
+      "title": "There is a delay with your order"
+    },
+	{
+      "id": "shipment.transfercreated",
+      "properties": {},
+      "template": "email/transfer-shipment-created",
+      "title": "Transfer Created"
     },
     {
       "id": "shipment.transferShipped",
