@@ -137,7 +137,7 @@
     {
       "id": "shipment.transfercreatedbyfulfiller",
       "properties": {},
-      "template": "email/transfer-shipment-created",
+      "template": "email/transfer-shipment-created-fulfiller",
       "title": "Transfer Created By Fulfiller"
     },
     {
