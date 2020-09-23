@@ -429,7 +429,7 @@
       "id": "shipment.pickupreminder",
       "properties": {},
       "template": "mobile-notification/pickup-reminder",
-      "title": "Pickup reminder"
+      "title": "Pickup Reminder"
     },
     {
       "id": "shipment.pickupready",
