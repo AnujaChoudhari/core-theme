@@ -1,0 +1,17 @@
+<div class="mz-curbside-header">  
+        <img src="/resources/images/kibo-logo-sidebar.png" alt="logo">
+        <div class="mz-curbside-header-body">
+            <p><strong>{{ siteContext.generalSettings.websiteName }}</strong></p>
+        </div>
+</div>
+
+<div class="pageContent">
+    <div class="curbside-info">
+    {% comment %} TODO hasCustomerAlreadyAtStore is dummy flag, once we get the actual flag from Fullfiller we can change that,Its Part of ticket FFMT-1758 {% endcomment %}
+        {% if model.hasCustomerAlreadyAtStore === true %}
+            <h3>{{ labels.shopperInStoreConfirmation|safe }} </h3>
+        {% else %}
+            <h3> {{labels.shopperAtStorenotified |safe }} </h3>
+        {% endif %} 
+    </div>
+</div>

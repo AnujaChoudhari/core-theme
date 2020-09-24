@@ -363,6 +363,20 @@
       "template": "back-office/shipment-pickup-ready",
       "title": "Shipment Pickup Ready",
       "userCreatable": false
+    },
+    {
+      "entityType": "customerOnWayconfirmationn",
+      "id": "customer-on-way-confirmation",
+      "template": "back-office/customer-on-way-confirmation",
+      "title": "Customer On Way Confirmation",
+      "userCreatable": false
+    },
+    {
+      "entityType": "customerAtStoreConfirmation",
+      "id": "customer-at-store-confirmation",
+      "template": "back-office/customer-at-store-confirmation",
+      "title": "Customer At Store Confirmation",
+      "userCreatable": false
     }
   ],
   "mobileNotificationTemplates": [
