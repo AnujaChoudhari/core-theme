@@ -111,7 +111,7 @@ define([
                 rma: ReturnModels.RMA
             },
             handlesMessages: true,
-            helpers: ['getReturnableItems', 'hasFulfilledShipments', 'hasShipments'],
+            helpers: ['getReturnableItems', 'hasFulfilledShipments', 'hasShipments', 'getShipmentTotal'],
             _nonShippedItems: {},
             initialize: function() {
                 var self = this;
@@ -144,6 +144,20 @@ define([
                     });
                 }
                 return hasShipments;
+            },
+            getShipmentTotal: function () {
+                var self = this,
+                    shipmentTotal = 0;
+                var shipments = self.get('shipments').get('items');
+                if (shipments) {
+                    shipments.each(function (shipment) {
+                        if (shipment.get('shipmentType') !== 'Transfer') {
+                            shipmentTotal += shipment.get('total');
+                        }
+                    });
+                }
+                shipmentTotal = shipmentTotal === undefined || shipmentTotal === 0 ? self.get('total') : shipmentTotal;
+                return shipmentTotal;
             },
             getReturnableItems: function() {
                 var filteredReturnItems = this.get('returnableItems').filter(function(item) {
