@@ -19,7 +19,7 @@ var CrubsideCustomerModel = Backbone.MozuModel.extend({
 var CrubsideCustomerView = Backbone.MozuView.extend({
     templateName: "back-office/customer-at-curbside-content",
     onDeliveryMethodSubmit: function(e) {
-            var self = this;
+            var self = this,
             $target = $(e.currentTarget);            
             e.preventDefault();
             var isBackofficePreview = $('[data-mz-isBackofficePreview]').val();
