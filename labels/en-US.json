@@ -660,7 +660,7 @@
   "trackingNumber": "Tracking Number",
   "trackPackage": "Track Package",
   "transferConfirmationBlob1": "Your order #{0}, external order #{2} had items not currently available. A transfer shipment has been created, be on the look out for a ready for pickup email. If you would like to view or manage your orders, please visit <a href=\"https://{1}/myaccount\">My Account</a>.",
-  "transferShippedBlob1": "Your transfer shipment for order #{0}, external order #{1} has been shipped, be on the look out for a ready for pickup emai.",
+  "transferShippedBlob1": "Your transfer shipment for order #{0}, external order #{1} has been shipped, be on the look out for a ready for pickup email.",
   "tuesday": "Tuesday",
   "unavailableForThisItem": "Unavailable for this item.",
   "unexpectedError": "Sorry, an unexpected error occurred. Please refresh the page and try again, or contact Support.",
